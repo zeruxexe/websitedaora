@@ -3,6 +3,30 @@
     {
       "source": "/",
       "destination": "/index.html"
+    },
+    {
+      "source": "/index.css",
+      "destination": "/index.css"
+    },
+    {
+      "source": "/index.js",
+      "destination": "/index.js"
+    },
+    {
+      "source": "/search.js",
+      "destination": "/search.js"
+    },
+    {
+      "source": "/register-sw.js",
+      "destination": "/register-sw.js"
+    },
+    {
+      "source": "/baremux/:path*",
+      "destination": "/baremux/:path*"
+    },
+    {
+      "source": "/uv/:path*",
+      "destination": "/uv/:path*"
     }
   ]
 }
